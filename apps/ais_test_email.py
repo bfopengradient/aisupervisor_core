@@ -31,7 +31,7 @@ def app():
 	#Check email and return contents in a dataframe
 	st.markdown(' ### Enter details of email you need AI Supervisor to check')
 	st.write('#')
-	EMAIL_ACCOUNT = st.text_input('Input your email here:',type="password") 
+	EMAIL_ACCOUNT = st.text_input('Input your email here:') 
 	PASSWORD = st.text_input("Enter a password: ", type="password")
 	st.write("#")
 	button= st.button('Check Email') 
