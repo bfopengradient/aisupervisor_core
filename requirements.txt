@@ -1,15 +1,11 @@
 click==7.1.2
 datasets
- 
 optuna
- 
 Pillow==8.3.1
-pycountry
 requests
 scikit-learn
 streamlit==0.85.0
 streamlit-player==0.1.5  
- 
 torch 
 transformers  
      
