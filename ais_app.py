@@ -23,7 +23,7 @@ with col3:
     st.write( "")
  
 
-#Custom button to match color scheme thats contained in the 
+#Custom button to match color scheme cintained in the .toml file
 st.markdown("""
 <style>
 div.stButton > button:first-child {
