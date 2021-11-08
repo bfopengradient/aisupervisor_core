@@ -18,6 +18,8 @@ def app():
 	 
 	#call in training once search is done
 	@st.cache(allow_output_mutation=True)
+	
+	#Suggest you sub in the fine tuned model here once the model is run at least once and the model weights are saved to the ./fine_tuned_model folder.
 	def model_init():
 					return DistilBertForSequenceClassification.from_pretrained('distilbert-base-cased', return_dict=True)
 
