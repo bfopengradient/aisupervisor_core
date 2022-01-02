@@ -12,7 +12,7 @@ Apps were tested on Google cloud, AWS cloud and Streamlit share. The core app wa
 
 The key file to work with is ais_app.py. Locally once your environment is set up with Streamlit you can deploy with the command " streamlit run ais_app.py . To deploy to Google App engine you will need to download the Google cloud SDK and once you set up your project in your Gcloud console you can deploy the app with the "gcloud app deploy" command. To deploy via Streamlit share cloud you can fork the repo and sign in to Streamlit share. It will give you an easy means to connect with your Github repos to deploy apps to the cloud. I found Streamlit share also really user friendly and a great environment to test the app after it was deployed.  BTW I was working with GitHub LFS but deliberately set up both apps to keep large files out of the repos and out of the way of you working with the apps in whatever cloud environment suits.    
 
-Any questions, best email is client.services@opengradient.com 
+ 
  
 
 
